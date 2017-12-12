@@ -8,6 +8,7 @@ public abstract class Seance {
         this.horraire = horraire;
         this.nbPlaceVendueTn = 0;
     }
+    public abstract  int CompareTo();
 
     public abstract int nbPlaceDispo();
 

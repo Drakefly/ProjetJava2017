@@ -3,12 +3,11 @@ import java.util.PriorityQueue;
 
 public class ProgrammationSemaine {
     private int Semaine;
-    private PriorityQueue<SeanceCinema> seanceCinemas;
-    private HashMap<SeanceTheatre, PieceTheatre> seanceDePiece;
+    private HashMap<Film, FileSeanceCine> mapcine;
+    private HashMap<PieceTheatre, FileSeanceTheatre> maptheatre;
 
 
     public ProgrammationSemaine(int semaine, PriorityQueue<SeanceCinema> seanceCinemas, HashMap<SeanceTheatre, PieceTheatre> seanceDePiece) {
         Semaine = semaine;
-        //123
     }
 }
