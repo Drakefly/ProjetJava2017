@@ -1,5 +1,5 @@
 public abstract class Seance {
-    private int jour;
+    public int jour;
     private Heure horraire;
     private int nbPlaceVendueTn;
 
@@ -17,4 +17,5 @@ public abstract class Seance {
     public abstract double tauxRemplissage();
 
     public abstract void vendrePlaceTn(int nbre);
+
 }
