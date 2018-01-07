@@ -1,5 +1,5 @@
 import java.util.Queue;
-import java.util.Iterator;
+
 public class FileSeanceCine {
     private Queue<SeanceCinema> listeSeanceCine;
 

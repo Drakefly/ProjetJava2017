@@ -1,6 +1,6 @@
 public abstract class Seance {
     public int jour;
-    private Heure horraire;
+    public Heure horraire;
     private int nbPlaceVendueTn;
 
     public Seance(int jour, Heure horraire) {

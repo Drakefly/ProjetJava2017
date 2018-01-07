@@ -1,13 +1,13 @@
 import java.util.Queue;
 
 public class FileSeanceTheatre {
-    private Queue<SeanceCinema> listSeanceTheatre;
+    private Queue<SeanceTheatre> listSeanceTheatre;
 
-    public Queue<SeanceCinema> getListSeanceTheatre() {
+    public Queue<SeanceTheatre> getListSeanceTheatre() {
         return listSeanceTheatre;
     }
 
-    public void setListSeanceTheatre(Queue<SeanceCinema> listSeanceTheatre) {
+    public void setListSeanceTheatre(Queue<SeanceTheatre> listSeanceTheatre) {
         this.listSeanceTheatre = listSeanceTheatre;
     }
 }
